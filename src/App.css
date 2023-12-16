@@ -1,0 +1,157 @@
+/* General Styles */
+.App {
+  text-align: center;
+  background-color: #FAF0DC;
+  height: max-content;
+}
+
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/* Heading Styles */
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* Link styles */
+/* unvisited link */
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #0F2557;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(191, 30, 111);
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+
+/* Table Styles index */
+.table-responsive {
+  overflow-x: auto;
+  
+}
+
+.table-bordered {
+  border: 2px solid #ccc;
+ 
+}
+thead.thead-dark {
+  background-color:#373A36;
+}
+/* spacing between data */
+
+/* categories */
+th {
+  background-color: #f2f2f2;
+}
+
+/* border-bottom for rows */
+tr {
+  border-bottom: 4px solid #ccc;
+}
+
+/* Container Styles */
+.container {
+  background-color: #D48166;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  height: fit-content;
+  margin: auto;
+}
+
+.dash-container {
+  border-radius: 8px;
+}
+
+/* Headers Styles */
+.mt-4,
+.mb-4 {
+  color: rgb(0, 0, 0);
+  font-size: xx-large;
+}
+
+.note-mb-4 {
+  font-size: large;
+  margin-bottom: 4px;
+}
+
+
+/* Dashboard Styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: large;
+}
+
+ul li, p {
+  margin-bottom: 10px;
+  font-size: large;
+}
+
+/*  Button Styles */
+button.edit-button,
+button.delete-button,
+button.go-back-button,
+button.submit-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button.edit-button {
+  background-color: #007bff;
+  color: white;
+}
+
+button.delete-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+button.edit-button:hover,
+button.delete-button:hover,
+button.go-back-button:hover {
+  background-color: #82b3e7;
+}
+
+.btn-primary,
+.btn-secondary,
+.go-back-button,
+.submit-btn {
+  background-color: #007bff;
+  color: white;
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary, .btn-secondary:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .App {
+    padding: 40px;
+  }
+}
