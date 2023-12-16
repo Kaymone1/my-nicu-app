@@ -5,8 +5,8 @@
 This is a web application designed for managing inventory in a Neonatal Intensive Care Unit (NICU). It provides a user-friendly interface for tracking items, viewing dashboards, and managing inventory items details.
 
 ## Live Sites
-Frontend: https://main--legendary-bublanina-efa037.netlify.app/
-Backend:  https://inventoryap-4e7068857990.herokuapp.com
+- Frontend: https://main--legendary-bublanina-efa037.netlify.app/
+- Backend:  https://inventoryap-4e7068857990.herokuapp.com
 
 ## User Stories
 
@@ -26,7 +26,7 @@ Backend:  https://inventoryap-4e7068857990.herokuapp.com
 
 ### Backend (Python/Django)
 
-1. Clone the repository: `git clone <backend-repo-url>`
+1. Clone the repository: `git clone [<backend-repo-url>](https://github.com/Kaymone1/inventoryappbackend.git)`
 2. Navigate to the backend directory: `cd <backend-directory>`
 3. Create a virtual environment: `python -m venv venv`
 4. Activate the virtual environment:
@@ -37,7 +37,7 @@ Backend:  https://inventoryap-4e7068857990.herokuapp.com
 
 ### Frontend (React)
 
-1. Clone the repository: `git clone <frontend-repo-url>`
+1. Clone the repository: `git clone [<frontend-repo-url>](https://github.com/Kaymone1/my-nicu-app.git)`
 2. Navigate to the frontend directory: `cd nicuapp`
 3. Install dependencies: `npm install`
 4. Start the React development server: `npm start`
